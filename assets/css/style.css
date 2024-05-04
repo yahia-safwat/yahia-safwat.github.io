@@ -576,7 +576,11 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;  
+  padding: 2px;
 }
 
 .portfolio #portfolio-flters {
@@ -612,6 +616,8 @@ section {
 }
 
 .portfolio .portfolio-wrap {
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Optional: Add border radius for rounded corners */
   transition: 0.3s;
   position: relative;
   overflow: hidden;
